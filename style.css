@@ -1,0 +1,517 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Okra, Helvetica, sans-serif;
+
+}
+.header-background{
+    background-image: url(images/81f3ff974d82520780078ba1cfbd453a1583259680.webp);
+    height: 420px;
+    background-repeat:no-repeat;
+    background-size:contain;
+    background-position:center;
+    background-size:cover;
+}
+.nav-links{
+    justify-content: end;
+    
+}
+.nav-link{
+    color: white;
+    font-family: Okra, Helvetica, sans-serif;
+    font-weight: 300;
+    font-size: 18px;
+}
+nav .nav-text{
+    color: white;
+}
+.nav-get{
+    font-size: 14px;
+    font-family: Okra, Helvetica, sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+}
+.zomato-img{
+    width: 300px;
+    height: 60px;
+}
+.h1-discover{
+    font-weight: 400px;
+    font-size: 36px;
+    color: white;
+    line-height: 1.2;
+    font-family: Okra, Helvetica, sans-serif;
+}
+.bnglr-text{
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 48px;
+    color: white;
+    font-family: Okra, Helvetica, sans-serif;
+
+}
+.searchcontainer{
+    display: flex;
+    justify-content: center;
+}
+.search-loc-box{
+    max-width: 750px;
+    display: flex;
+    box-align: center;
+    align-items: center;
+    height: 54px;
+    background: rgb(255, 255, 255);
+    border-radius: 0.8rem;
+    box-shadow: rgba(28, 28, 28, 0.08) 0px 2px 8px;
+    border: 1px solid rgb(232, 232, 232);
+}
+.location-box{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.loc-icon{
+    width: 20px;
+    height: 20px;
+}
+.dropdown-icon{
+    width: 15px;
+    height: 12px;
+}
+.ruler{
+    width: 1.5px;
+    background-color: rgb(207, 207, 207);
+    height: 20px;
+}
+.search-box{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.serch-icon{
+    width: 18px;
+    height: 18px;
+}
+.section1-cards{
+    max-width: 1100px;
+    display: flex;
+    justify-content: space-between;
+}
+.card-box{
+    position: relative;
+    width: 31.5%;
+}
+.card-box-image{
+    position: relative;
+    max-width: 100%;
+    width: 100%;
+    height: 240px;
+}
+.card-imgage{
+    border-radius: 1.2rem;
+    width: 100%;
+
+}
+.card-box-text{
+    padding-left: 20px;
+    width: 100%;
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    background: white;
+    border: 1px solid rgb(232, 232, 232);
+    border-radius:0 0 10px 10px;
+    box-sizing: border-box;
+}
+.card-text{
+    text-decoration: none;
+}
+.card-box a{
+    text-decoration:none ;
+
+}
+.card-heading{
+    color: black;
+    font-size: 20px;
+    font-weight: 500;
+    font-family: Okra, Helvetica, sans-serif;
+}
+.card-para{
+    font-size: 16px;
+    font-weight: 400;
+    font-family: Okra, Helvetica, sans-serif;
+    color: rgb(79, 79, 79);
+}
+.collection-text{
+    font-size: 36px;
+    
+    font-weight: 400;
+    color: rgb(28, 28, 28);
+    margin: 0px;
+}
+.para-link{
+    display: flex;
+    justify-content: space-between;
+}
+.para-link a{
+    text-decoration:none;
+    color: rgb(224, 53, 70);
+    font-weight: 300px;
+    font-size: 16px;
+
+}
+.collection-para{
+    font-size: 18px;
+    line-height: 1.4;
+    font-weight: 300;
+    color: rgb(54, 54, 54);
+}
+.section-3{
+    position: relative;
+    max-width: 110rem;
+    max-height: initial;
+    margin: 0px auto;
+}
+
+.sec3-box{
+    width: 100%;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+}
+.sec3-img-box{
+    position: relative;
+    width: 100%;
+    -webkit-box-flex: 0;
+    flex-grow: 0;
+    flex-shrink: 0;
+    max-width: 25%;
+    padding: 0px 7.5px 10px 0px;
+
+}
+.img-sec-3{
+    position: relative;
+    max-width: 100%;
+    height: 320px;
+    overflow: hidden;
+    border-radius: 10px;
+}
+.s-i-b{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    will-change: transform, opacity;
+    border-radius: inherit;
+    transition: opacity 0.25s ease-in 0s;
+}
+.sec3-image-box{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transform: none;
+    opacity: 1;
+    will-change: transform, opacity;
+    border-radius: inherit;
+    filter: unset;
+    transition: opacity 0.25s ease 0s, transform 0.25s ease 0s;
+}
+.sec3-cover{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    border-radius: 6px;
+    width: 97%;
+    height: 97%;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.9) 0%, rgba(0, 0, 0, 0.05) 50%, rgba(0, 0, 0, 0.05) 85%);
+}
+.sec3-text-part{
+    color: rgb(255, 255, 255);
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+}
+.sec4-heading{
+    font-size: 36px;
+    font-weight: 400;
+    font-family: Okra, Helvetica, sans-serif;
+}
+.city-text{
+    font-size: 36px;
+    font-weight: 500;
+    font-family: Okra, Helvetica, sans-serif;
+}
+.localities{
+    display: flex;
+    justify-content: space-between;
+}
+.loc-box{
+    padding: 12px 15px;
+    border-radius: 8px;
+    background: rgb(255, 255, 255);
+    border: 1px solid rgb(232, 232, 232);
+    margin-bottom: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+}
+.loc-outer-box a,.sec6-outer-box a{
+    text-decoration: none;
+    color: black;
+    font-family: Okra, Helvetica, sans-serif;
+}
+.loc-name{
+    font-size: 20px;
+    line-height: 1.2;
+    font-weight: 400;
+    color: rgb(28, 28, 28);
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.loc-count{
+    font-size: 16px;
+    line-height: 1.5;
+    margin: 0px;
+    color: rgb(54, 54, 54);
+}
+.loc-outer-box{
+    width: 32%;
+}
+.section-5{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    background-color: rgb(255, 251, 247); 
+}
+.zom-app-img{
+    width: 250px;
+    height: 450px;
+    object-fit: contain;
+}
+.app-form h2{
+    color: rgb(28, 28, 28);
+    margin: 0px 0px 15px;
+    font-weight: 500;
+    font-size: 44px;
+    line-height: 1;
+    font-family: Okra, Helvetica, sans-serif;
+}
+.app-form p{
+    font-size: 16px;
+    font-weight: 300;
+    color: rgb(54, 54, 54);
+    width: 91%;
+    font-family: Okra, Helvetica, sans-serif;
+    line-height: 2;
+}
+.radio-btn{
+    display: flex;
+    width: 50%;
+    justify-content: space-between;
+}
+.input-lab{
+    padding: 12px 11px;
+    height: 48px;
+    background: rgb(255, 255, 255);
+    border: 1.5px solid rgb(224, 53, 70);
+    font-size: 18px;
+    width: 100%;
+    outline: none;
+    box-sizing: border-box;
+    border-radius: 6px;
+    color: rgb(28, 28, 28);
+}
+.share-btn{
+    height: 48px;
+    border-color: rgb(239, 79, 95);
+    background-color:  rgb(239, 79, 95);
+    font-weight: 300;
+    color: rgb(255, 255, 255);
+    border-radius: 6px;    width: 31%;
+
+}
+.btn-option{
+    display: flex;
+    justify-content: space-between;
+    width: 60%;
+}
+
+.android-btn,.ios-btn{
+    width: 130px;
+    height: 40px;
+    border-radius: 10px;
+    background-repeat:no-repeat;
+    background-size:contain;
+    background-position:center;
+    background-size:cover;
+    border-color: transparent;
+}
+.android-btn{
+    background-image: url(images/btn-android.webp);
+}
+.ios-btn{
+    background-image: url(images/btn-ios.webp);
+}
+.sec6-head{
+    color: rgb(54, 54, 54);
+    font-size: 30px;
+    font-family: Okra, Helvetica, sans-serif;
+    font-weight: 500;
+}
+footer{
+    width: 100%;
+    background: rgb(248, 248, 248);
+}
+.head-zomato{
+    display: flex;
+    justify-content: space-between;
+}
+.country,.lang{
+    min-width: 100px;
+    width: max-content;
+    max-width: 100%;
+    cursor: pointer;
+    position: relative;
+    padding: 3px 7px;
+    border: 1px solid rgb(181, 181, 181);
+    border-radius: 6px;
+}
+.foot-links{
+    display: flex;
+    justify-content: space-between;
+}
+.list-area{
+    list-style: none;
+    font-size: 12px;
+}
+.list-area{
+    list-style: none;
+    font-size: 12px;
+}
+.list-area a{
+    font-size: 14px;
+    color: rgb(105, 105, 105);
+
+    text-decoration: none;
+    line-height: 2.3337;
+}
+.list-area a:hover{
+    color: rgb(28, 28, 28);
+}
+.list-area h5{
+    font-size: 14px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    font-weight: 500;   
+}
+.f-copyrights{
+    font-size: 13px;
+    color: rgb(79, 79, 79);
+    line-height: 1;
+}
+.social-icons img{
+    width: 22px;
+    height: 22px;
+}
+.b-d-round{
+    border-radius: 50%;
+}
+
+
+@media (max-width:768px) {
+    .flist-hide{
+        width: 100%;
+    }
+    .nav-get{
+        display: none;
+    }
+    .card-box{
+        min-height: 75px;
+        min-width: 100px;
+    }
+    .card-para{
+        font-size: 12px;
+    }
+    .card-heading{
+        font-size: 14px;
+    }
+  .collection-para{
+        width: 77%;
+        font-size: 16px;
+    }
+    .share-btn{
+        margin-top: 10px;
+    }
+    .zom-app-img{
+        display: none;
+    }
+
+    .footer-list-1{
+        min-width: 40%;
+    }
+    .sec3-img-box{
+        min-width: 50%;
+    }
+    .card-box{
+        margin-top: 3%;
+        min-width: 48%;
+        margin-right: 2%;
+    }
+    .head-zomato {
+        display: block;
+        margin-left: 20px;
+    }
+    .section1-cards{
+        flex-wrap: wrap;
+    }
+    .foot-links{
+        flex-wrap: wrap;
+    }
+    .localities{
+        flex-wrap: wrap;
+    }
+    .flist-media{
+        margin-left: -15px;
+    }
+    .loc-outer-box{
+        width: 100%;
+    }
+    .search-loc-box{
+        flex-wrap: wrap;
+    }
+    .location-box{
+        width: 100%;
+    }
+    .ruler{
+        display: none;
+    }
+    .search-box,.location-box{
+    width: 100%;
+    margin-top: 10px;
+    display: flex;
+    box-align: center;
+    align-items: center;
+    height: 40px;
+    background: rgb(255, 255, 255);
+    border-radius: 0.8rem;
+    box-shadow: rgba(28, 28, 28, 0.08) 0px 2px 8px;
+    border: 1px solid rgb(232, 232, 232);
+    }
+    .search-loc-box{
+        background-color: transparent;
+        border: 0;
+    }
+    .search-input{
+        margin-right: 55px;
+    }
+    .navbar-nav{
+        background-color: gray;opacity: .8
+    }
+}
